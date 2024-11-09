@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Logica.cs" />
+    <Compile Include="Assets\Grid.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
