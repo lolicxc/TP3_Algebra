@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dolor\\OneDrive\\Documents\\GitHub\\TP3_Algebra\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6D26BC24-0B95-0D95-FC3A-BFA1CE8ED6C7}|Assembly-CSharp.csproj|c:\\users\\dolor\\onedrive\\documents\\github\\tp3_algebra\\assets\\scripts\\modelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D26BC24-0B95-0D95-FC3A-BFA1CE8ED6C7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\modelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D26BC24-0B95-0D95-FC3A-BFA1CE8ED6C7}|Assembly-CSharp.csproj|c:\\users\\dolor\\onedrive\\documents\\github\\tp3_algebra\\assets\\scripts\\collisionchecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D26BC24-0B95-0D95-FC3A-BFA1CE8ED6C7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\collisionchecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6D26BC24-0B95-0D95-FC3A-BFA1CE8ED6C7}|Assembly-CSharp.csproj|C:\\Users\\dolor\\OneDrive\\Documents\\GitHub\\TP3_Algebra\\assets\\scripts\\boundingboxcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D26BC24-0B95-0D95-FC3A-BFA1CE8ED6C7}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\boundingboxcalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ModelController.cs",
+              "DocumentMoniker": "C:\\Users\\dolor\\OneDrive\\Documents\\GitHub\\TP3_Algebra\\Assets\\Scripts\\ModelController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ModelController.cs",
+              "ToolTip": "C:\\Users\\dolor\\OneDrive\\Documents\\GitHub\\TP3_Algebra\\Assets\\Scripts\\ModelController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ModelController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T14:00:19.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CollisionChecker.cs",
+              "DocumentMoniker": "C:\\Users\\dolor\\OneDrive\\Documents\\GitHub\\TP3_Algebra\\Assets\\Scripts\\CollisionChecker.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CollisionChecker.cs",
+              "ToolTip": "C:\\Users\\dolor\\OneDrive\\Documents\\GitHub\\TP3_Algebra\\Assets\\Scripts\\CollisionChecker.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CollisionChecker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T13:18:48.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BoundingBoxCalculator.cs",
+              "DocumentMoniker": "C:\\Users\\dolor\\OneDrive\\Documents\\GitHub\\TP3_Algebra\\Assets\\Scripts\\BoundingBoxCalculator.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BoundingBoxCalculator.cs",
+              "ToolTip": "C:\\Users\\dolor\\OneDrive\\Documents\\GitHub\\TP3_Algebra\\Assets\\Scripts\\BoundingBoxCalculator.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BoundingBoxCalculator.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAwBUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T19:43:26.807Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

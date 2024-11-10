@@ -1,31 +1,54 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using System.Collections.Generic;
 
 public class CollisionChecker : MonoBehaviour
 {
-    public BoundingBoxCalculator box1;
-    public BoundingBoxCalculator box2;
-    public GridGenerator grid;
+    private List<BoundingBoxCalculator> BoundingBoxCalculator;
+
+    public GridGenerator grid; // Asigna esto en el Inspector si es necesario
+
+    void Start()
+    {
+        // Encuentra todos los objetos en la escena con el script BoundingBoxCalculator
+        BoundingBoxCalculator = new List<BoundingBoxCalculator>(FindObjectsOfType<BoundingBoxCalculator>());
+    }
 
     void Update()
     {
-        if (box1.bounds.Intersects(box2.bounds))
+        // Verificar colisiones entre todos los pares de bounding boxes individuales
+        for (int i = 0; i < BoundingBoxCalculator.Count; i++)
         {
-            CheckGridPointsCollision();
+            for (int j = i + 1; j < BoundingBoxCalculator.Count; j++)
+            {
+                // Obtener las listas de Bounds de los dos objetos
+                List<Bounds> boundsList1 = BoundingBoxCalculator[i].ObjectBounds;
+                List<Bounds> boundsList2 = BoundingBoxCalculator[j].ObjectBounds;
+
+                // Verificar cada combinación de Bounds entre los dos objetos
+                foreach (Bounds bounds1 in boundsList1)
+                {
+                    foreach (Bounds bounds2 in boundsList2)
+                    {
+                        if (bounds1.Intersects(bounds2))
+                        {
+                            CheckGridPointsCollision(bounds1, bounds2);
+                        }
+                    }
+                }
+            }
         }
     }
 
-    void CheckGridPointsCollision()
+    void CheckGridPointsCollision(Bounds bounds1, Bounds bounds2)
     {
         foreach (Vector3 point in grid.gridPoints)
         {
-            if (box1.bounds.Contains(point) && box2.bounds.Contains(point))
+            if (bounds1.Contains(point) && bounds2.Contains(point))
             {
                 Debug.Log("Colisión detectada en el punto: " + point);
                 return;
             }
         }
-        Debug.Log("No hay colisión en los puntos de la grilla.");
+        Debug.Log("No hay colisión en los puntos de la grilla entre estos objetos.");
     }
 }
